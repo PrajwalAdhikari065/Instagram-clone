@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+}
+.nav-col{
+    height: 730px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+}
+.subcontainer{
+  padding: 25px;
+  height: 675px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.nav-btn {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.logo{
+    font-size: 1.5rem  ;
+    padding-top: 5px;
+    height: 40px;
+    width: auto;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ownProfile{
+    background-image: url(narutoProfile.jpg);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+     margin-right: 10px;
+     border: 0.5px solid rgba(0, 178, 248, 0.3);
+}
+
+
+.Options{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.Options:hover{
+    cursor: pointer;
+}
+.Options i{
+    margin-right: 10px;
+}
+.about{
+    height: 70px;
+     display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+}
+
+
+.content{
+    height: 725px;
+    width: 100%;
+    display: flex;
+}
+.main{
+height: 100%;
+width: 100%;
+}
+.suggesstions{
+height: 100%;
+width: 500px;
+}
+
+.suggesstions_container{
+    padding: 50px 25px;
+    width: 250px;
+}
+.profiles{
+    display: flex;
+    width: 250px ;
+    justify-content: space-between;
+    height: 70px;
+   
+}
+.small{
+    width: 100%;
+    display: flex;
+}
+.name{
+    width: 100px;
+}
+.username{
+    color: grey;
+}
+.Extra{
+    color: blue ;
+  margin-right: 0;
+}
+.magicthingy{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profilelogo1{
+    background-image: url(sasuke.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+     margin-right: 10px;
+    
+}
+.profilelogo2{
+    background-image: url(hinata.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+     margin-right: 10px;
+   
+}
+.profilelogo3{
+    background-image: url(sakura.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+     margin-right: 10px;
+    
+}
+.profilelogo4{
+    background-image: url(miyamura.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+     margin-right: 10px;
+
+}
+.profilelogo5{
+    background-image: url(hori.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+     margin-right: 10px;
+    
+}
+.about_us{
+    color: rgba(128, 128, 128, 0.7);
+}
+.stories{
+    padding-top:25px ;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.storyprofile{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    }
+ .light{
+        color: gray;
+    }
+.rainbow{
+    padding: 2px;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color:rgb(248, 20, 187);
+    border-left-color:rgb(231, 160, 7);
+    border-right-color: red;
+   border-bottom-color: orange;
+}
+
+.postcontainer{
+ padding: 60px 150px 40px 120px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ height: 800px;
+}
+  
+.postheading{
+ display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.head{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.dot{
+    font-size: 0.2rem;
+    align-self: top;
+    margin-top: 6px;
+}
+.postbody{
+    background-image: url(Sasukepost.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.functional_btn{
+    margin-top: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.combined{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.nameofcreator{
+    font-weight: bold;
+}
+.addcomment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment input{
+    border: none;
+}
